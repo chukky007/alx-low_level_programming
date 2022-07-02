@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * maiin - Prints numbers between 012 to 789
+ * main - Prints numbers between 012 to 789
  *
  * Return: Always 0 (Success)
  */
