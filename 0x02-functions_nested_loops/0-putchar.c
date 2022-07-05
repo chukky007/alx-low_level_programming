@@ -1,20 +1,20 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - Prints chuka as a message
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return - Always 0 (Success)
  */
 int main(void)
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int count, sz;
+	char *sh = "putchar";
 
-	sz = sizeof(str) / sieof(int);
-	for (count = 0; count < sz; count++)
+	while (*sh)
 	{
-		_putchar(str[count]);
+		_putchar(*sh);
+		sh++;
 	}
-	_putchar9('\n');
+	_putchar('\n');
+
 	return (0);
 }
