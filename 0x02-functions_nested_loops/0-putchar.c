@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * printanythings - prints "anythings"
  *
- * Return - Always 0 (Success)
+ * Return: nothing
  */
-int main(void)
+void printanythings(void)
 {
-	char *sh = "putchar";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
+	_putchar('a');
+	_putchar('n');
+	_putchar('y');
+	_putchar('t');
+	_putchar('h');
+	_putchar('i');
+	_putchar('n');
+	_putchar('g');
+	_putchar('s');
 	_putchar('\n');
-
-	return (0);
 }
