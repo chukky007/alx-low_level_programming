@@ -1,4 +1,4 @@
-#include "chuka.c"
+#include "main.h"
 
 /**
  * main - Prints chuka as a message
