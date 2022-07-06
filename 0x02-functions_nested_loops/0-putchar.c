@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * main - prints "something"
+ * main - prints "anything"
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	_putchar('s');
-	_putchar('o');
-	_putchar('m');
-	_putchar('e');
+	_putchar('a');
+	_putchar('n');
+	_putchar('y');
 	_putchar('t');
 	_putchar('h');
 	_putchar('i');
