@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * printanythings - prints "anythings"
+ * main - Prints anythings as a message.
  *
- * Return: nothing
+ * Return: Always 0 (Success)
  */
-void printanythings(void)
+int main(void)
 {
-	_putchar('a');
-	_putchar('n');
-	_putchar('y');
-	_putchar('t');
-	_putchar('h');
-	_putchar('i');
-	_putchar('n');
-	_putchar('g');
-	_putchar('s');
+	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+	int count, sz;
+
+	sz = sizeof(str) / sizeof(int);
+	for (count = 0; count < sz; count++)
+	{
+		_putchar(str[count]);
+	}
 	_putchar('\n');
+	return (0);
 }
