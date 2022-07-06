@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * main - Prints anythings as a message.
+ * main - prints "something"
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int count, sz;
-
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
-	{
-		_putchar(str[count]);
-	}
+	_putchar('s');
+	_putchar('o');
+	_putchar('m');
+	_putchar('e');
+	_putchar('t');
+	_putchar('h');
+	_putchar('i');
+	_putchar('n');
+	_putchar('g');
 	_putchar('\n');
+
 	return (0);
 }
