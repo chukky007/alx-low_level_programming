@@ -16,5 +16,5 @@ int main(void)
 			b += a;
 	}
 	printf("%d\n", b);
-	retturn (0);
+	return (0);
 }
