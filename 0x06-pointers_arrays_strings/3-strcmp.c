@@ -9,7 +9,7 @@
  *
  * Return: 0 if s1 matches s2,
  * otherwise an integer less than 0 if s1 is less than s2,
- * otherwise an integer than 0 if s1 is greater than s2.
+ * otherwise an integer greater than 0 if s1 is greater than s2.
  *
  */
 int _strcmp(char *s1, char *s2)
