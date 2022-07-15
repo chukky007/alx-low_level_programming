@@ -4,6 +4,8 @@
  * rot13 - encode a string using rot13
  * @s: the striing to encode
  *
+ * Description: Each letter is replaced with the 13th letter after it.
+ *
  * Return: pointer to the encoded string
  */
 char *rot13(char *s)
