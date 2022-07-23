@@ -1,4 +1,4 @@
-#include "nain.h"
+#include "main.h"
 
 /**
  * _strcat - concatenate two strings
@@ -24,7 +24,7 @@ char *_strcat(char *dest, char *src)
 	if (src + src_len < dest || dest_end + src_len < src)
 	{
 		do {
-			*dst_end++ = *src++;
+			*dest_end++ = *src++;
 		} while (src_len--);
 
 	}

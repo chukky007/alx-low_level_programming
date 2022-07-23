@@ -23,7 +23,7 @@ char *_strncpy(char *dest, char *src, int n)
 	if (src + src_len < dest || dest + n < src)
 	{
 		for (; src_len; --src_len, --n)
-			*dest_end++ = src++;
+			*dest_end++ = *src++;
 
 		for (; n; --n)
 			*dest_end++ = '\0';
