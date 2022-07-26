@@ -12,10 +12,10 @@ int subtract_largest_coin(int cents)
 		return (cents - 25);
 	if (cents - 10 > -1)
 		return (cents - 10);
-	if (cents -5 > -1)
-		return (cents - 5 );
+	if (cents - 5 > -1)
+		return (cents - 5);
 	if (cents - 2 > -1)
-		return ( cents - 2);
+		return (cents - 2);
 	if (cents - 1 > -1)
 		return (cents - 1);
 
@@ -34,7 +34,8 @@ int main(int argc, char *argv[])
 {
 	int cents, coins;
 
-	if (argc != 2){
+	if (argc != 2)
+	{
 		puts("Error");
 		return (1);
 	}
