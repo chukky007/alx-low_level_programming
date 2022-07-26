@@ -35,11 +35,11 @@ int main(int argc, char *argv[])
 	int cents, coins;
 
 	if (argc != 2){
-		puts("Error"0);
+		puts("Error");
 		return (1);
 	}
 	for (cents = atoi(argv[1]), coins = 0; cents > 0; ++coins)
-		cents = subtracts_largest_coin(cents);
+		cents = subtract_largest_coin(cents);
 
 	printf("%d\n", coins);
 
